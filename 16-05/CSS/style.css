@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: rgba(180, 173, 158, 255);
+}
+ul {
+    text-align: center;
+    text-transform: uppercase;
+}
+p {
+    margin-bottom: 20px;
+    color: rgba(98, 98, 98, 255);
+}
+.wrapper {
+    width: 900px;
+}
+.navi {
+    display: inline-block;
+    margin-right: 80px;
+}
+img {
+    margin-bottom: 20px;
+}
+article {
+    display: inline-block;
+    width: 420px;
+    /*background-color: yellow;*/
+    vertical-align: top;
+    margin-right: 40px;
+    margin-bottom: 70px;
+
+}
+.lifestyle {
+    display: block;
+    font-size: 14px;
+    color: rgba(180, 173, 158, 255);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+button {
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
