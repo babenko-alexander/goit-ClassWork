@@ -1,0 +1,75 @@
+.simple {
+    transition: 2s;
+    font-size: 30px;
+    background: #91877b;
+    text-shadow: 5px -5px 5px #ff0;
+}
+.close {
+    font-size: 30px;
+    background-color: #fff;
+    color: #202c2d;
+    text-shadow:
+            0 1px #808d93,
+            -1px 0 #cdd2d5,
+            -1px 2px #808d93,
+            -2px 1px #cdd2d5,
+            -2px 3px #808d93,
+            -3px 2px #cdd2d5,
+            -3px 4px #808d93,
+            -4px 3px #cdd2d5,
+            -4px 5px #808d93,
+            -5px 4px #cdd2d5,
+            -5px 6px #808d93,
+            -6px 5px #cdd2d5,
+            -6px 7px #808d93,
+            -7px 6px #cdd2d5,
+            -7px 8px #808d93,
+            -8px 7px #cdd2d5;
+}
+.simple:hover {
+    text-shadow:
+            0 1px #808d93,
+            11px 0 #cdd2d5,
+            11px 2px #808d93,
+            12px 1px #cdd2d5,
+            12px 3px #808d93,
+            13px 2px #cdd2d5,
+            13px 4px #808d93,
+            14px 3px #cdd2d5,
+            14px 5px #808d93,
+            15px 4px #cdd2d5,
+            15px 6px #808d93,
+            16px 5px #cdd2d5,
+            16px 7px #808d93,
+            17px 6px #cdd2d5,
+            17px 8px #808d93,
+            18px 7px #cdd2d5;
+}
+body {
+    background-color: #eee;
+}
+.box h3 {
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.box {
+    width: 70%;
+    height: 200px;
+    background: #FFF;
+    margin: 40px auto;
+}
+/*.effect1{*/
+/*box-shadow: 0 10px 6px -6px #777;*/
+/*}*/
+.effect1{
+    box-shadow:  0 1px 28px 9px rgba(0,0,0,1);
+    transition: 2s;
+    /*perspective: 200px;*/
+}
+.effect1:hover {
+    /*box-shadow: inset 0 1px 28px 19px rgba(0,0,0,1);*/
+    /*transform: translate(15%, 15%) rotate(360deg) scale(0.5);*/
+    transform: rotateY(90deg);
+}
