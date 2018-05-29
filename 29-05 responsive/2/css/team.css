@@ -1,0 +1,19 @@
+.wrapper-team {
+    background-color: #fff;
+}
+.team {
+    padding: 4rem 0;
+}
+.title {
+    text-align: center;
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.sub-title {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
