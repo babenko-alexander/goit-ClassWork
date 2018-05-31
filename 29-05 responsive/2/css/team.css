@@ -1,5 +1,6 @@
 .wrapper-team {
     background-color: #fff;
+    padding: 4rem 1rem;
 }
 .team {
     padding: 4rem 0;
@@ -16,4 +17,35 @@
     font-size: 1rem;
     font-weight: 300;
     margin-bottom: 2rem;
+}
+.bold {
+    font-weight: 700;
+}
+.team-item {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.team-item:last-child {
+    margin-bottom: 0;
+}
+.team-pic {
+    border-radius: 50%;
+    margin-bottom: 0.8rem;
+}
+.team-name {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.team-ocupation {
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .team-body {
+        display: flex;
+        justify-content: space-around;
+    }
+    .team-item {
+        flex-basis: 23%;
+    }
 }

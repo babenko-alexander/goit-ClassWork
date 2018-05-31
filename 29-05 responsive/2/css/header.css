@@ -11,3 +11,20 @@
 .nav {
     display: none;
 }
+@media (min-width: 768px) {
+    .wrapper-header {
+        display: flex;
+        align-items: center;
+    }
+    .nav {
+        display: block;
+        flex-basis: 50%;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu-link {
+        color: #fff;
+    }
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box {
+    font-size: 2rem;
+    color: #ffeead;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:nth-child(1n) {
+    background-color: #96ceb4;
+}
+
+.box:nth-child(3n) {
+    background-color: #88d8b0;
+}
+
+.box:nth-child(2n) {
+    background-color: #ff6f69;
+}
+
+.box:nth-child(4n) {
+    background-color: #ffcc5c;
+}
+
+/*.container {*/
+    /*display: grid;*/
+    /*grid-template-columns: 100px 300px 200px;*/
+    /*grid-template-columns: 1fr 3fr 2fr;*/
+    /*grid-template-rows: 50px 50px 200px;*/
+    /*grid-gap: 3px;*/
+    /*grid-template: 50px 50px 200px / 100px auto;*/
+
+    /*grid-template-columns: repeat(3,100px);*/
+    /*grid-template-rows: repeat(2,50px);*/
+    /*grid-template: repeat(2, 50px) / repeat(3, 100px);*/
+/*}*/
+
+/*.container {*/
+    /*min-height: 100vh;*/
+    /*display: grid;*/
+    /*grid-gap: 3px;*/
+    /*grid-template-columns: repeat(12, 1fr);*/
+    /*grid-template-rows: 40px auto 40px;*/
+
+    /*grid-template-areas: '. . h h h h h h h h h h'*/
+                         /*'m m c c c c c c c c c c'*/
+                         /*'m m f f f f f f f f f f';*/
+/*}*/
+
+/*.header {*/
+    /*grid-area: h;*/
+/*}*/
+/*.menu {*/
+    /*grid-area: m;*/
+/*}*/
+/*.content {*/
+    /*grid-area: c;*/
+/*}*/
+/*.footer {*/
+    /*grid-area: f;*/
+/*}*/
+
+/*.header {*/
+    /*grid-column-start: 1;*/
+    /*grid-column-end: 11;*/
+    /*grid-column: 1 / 11;*/
+    /*grid-column: 1 / -2;*/
+/*}*/
+/*.footer {*/
+    /*grid-column: 1 / span 3;*/
+    /*grid-column: 1 / -2;*/
+/*}*/
+/*.content {*/
+    /*grid-column: 1 / -2;*/
+/*}*/
+/*.menu {*/
+    /*grid-column: -2 / -1;*/
+    /*grid-column: -1 / -2;*/
+    /*grid-row: 1 / -1;*/
+/*}*/
+
+
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+
+    grid-template-areas:
+    'h h h h h h h h h h h h'
+    'n n n f f f f f f f a a'
+    'n n n f f f f f f f a a'
+    'n n n f f f f f f f a a'
+    'n n n f f f f f f f a a'
+    'n n n f f f f f f f a a'
+    'n n n f f f f f f f a a'
+    'n n n b b b b b b b b b';
+
+
+}
+.header {
+    grid-area: h;
+    background-color: #ff1325;
+}
+.nav {
+    grid-area: n;
+    background-color: #f9ff68;
+}
+.article {
+    grid-area: f;
+    background-color: #2cff9d;
+}
+.ads {
+    grid-area: a;
+    background-color: #2e4165;
+}
+.footer {
+    grid-area: b;
+    background-color: #ffb83f;
+}
