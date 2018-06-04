@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+body {
+    padding: 2rem;
+    background-color: #ff0;
+}
+
+.bg-hospital_sign {
+    width: 16px;
+    height: 16px;
+    background: url('../img/css_sprites.png') -10px -10px;
+    display: inline-block;
+    transition: 2s;
+}
+.bg-hospital_sign_1 {
+    width: 32px;
+    height: 32px;
+    background: url('../img/css_sprites.png') -10px -134px;
+    display: inline-block;
+
+}
+.bg-no_smoking {
+    width: 24px;
+    height: 24px;
+    background: url('../img/css_sprites.png') -10px -46px;
+    display: inline-block;
+    transition: 2s;
+
+}
+.bg-no_smoking_1 {
+    width: 24px;
+    height: 24px;
+    background: url('../img/css_sprites.png') -10px -90px;
+    display: inline-block;
+
+}
+.bg-no_smoking:hover {
+    background: url('../img/css_sprites.png') -10px -90px;
+}
+.bg-hospital_sign:hover {
+    width: 32px;
+    height: 32px;
+    background: url('../img/css_sprites.png') -10px -134px;
+}
+/*.list__item {*/
+    /*width: 24px;*/
+    /*height: 24px;*/
+    /*background: url('../img/css_sprites.png') -10px -46px;*/
+    /*!*background-color: #000;*!*/
+    /*display: inline-block;*/
+/*}*/
+
+
+.bg-fb-chrome {
+    width: 64px; height: 64px;
+    display: inline-block;
+    background: url('../img/css_sprites2.png') -10px -10px;
+    transition: 2s;
+}
+.bg-fb-color {
+    width: 64px; height: 64px;
+    display: inline-block;
+    background: url('../img/css_sprites2.png') -10px -94px;
+}
+.bg-ig-chrome {
+    width: 64px; height: 64px;
+    display: inline-block;
+    background: url('../img/css_sprites2.png') -10px -178px;
+    transition: 2s;
+}
+.bg-ig-color  {
+    width: 64px; height: 64px;
+    display: inline-block;
+    background: url('../img/css_sprites2.png') -10px -262px;
+}
+.bg-tw-chrome {
+    width: 64px; height: 64px;
+    display: inline-block;
+    background: url('../img/css_sprites2.png') -10px -346px;
+    transition: 2s;
+}
+.bg-tw-color  {
+    width: 64px; height: 64px;
+    display: inline-block;
+    background: url('../img/css_sprites2.png') -10px -430px;
+}
+.bg-fb-chrome:hover {
+    background: url('../img/css_sprites2.png') -10px -94px;
+}
+.bg-ig-chrome:hover {
+    background: url('../img/css_sprites2.png') -10px -262px;
+}
+.bg-tw-chrome:hover {
+    background: url('../img/css_sprites2.png') -10px -430px;
+}
+
+
+.icon {
+    width: 5rem;
+    height: 8rem;
+    cursor: pointer;
+    fill: #1EA896;
+}
+
+.icon:hover {
+    fill: #FF715B;
+}
+
+.box {
+    width: 480px;
+    height: 320px;
+    background: url(http://placeimg.com/480/320/any?t=1528115654186) no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .box {
+        background: url("https://placeimg.com/960/640/animals") no-repeat;
+    }
+}
+/*.box2 {*/
+    /*width: 960px;*/
+    /*padding: 640px;*/
+    /**/
+/*}*/
