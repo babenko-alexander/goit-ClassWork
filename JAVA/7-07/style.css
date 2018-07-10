@@ -1,0 +1,22 @@
+.btn {
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px;
+    transition: 1s;
+}
+
+.item {
+    transition: 1s;
+}
+
+.bigBtn {
+    transform: scale(2);
+}
+
+.bigText {
+    font-size: 30px;
+}
+
+
