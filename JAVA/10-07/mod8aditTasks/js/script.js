@@ -13,7 +13,8 @@ console.log(arrBtn);
 
 function delLi (e) {
     // console.log(arrBtn.indexOf(e.target));
-    arrLi[arrBtn.indexOf(e.target)].style.display = 'none';
+    // arrLi[arrBtn.indexOf(e.target)].style.display = 'none';
+    arrLi[arrBtn.indexOf(e.target)].remove();
 }
 
 // list.addEventListener('click', delLi);
@@ -102,5 +103,22 @@ inp.addEventListener('input', inpVal);*/
 */
 
 
+let btn = document.querySelector('.js-open-modal');
+let modal = document.querySelector('.js-modal-backdrop');
+let closingBtn = document.querySelector('.js-close-modal');
 
+
+function removeHiding () {
+    modal.classList.remove('modal-hidden');
+}
+
+function closeModal (e) {
+    if (e.target === this) {
+        modal.classList.add('modal-hidden');
+    }
+}
+
+btn.addEventListener('click', removeHiding);
+modal.addEventListener('click', closeModal);
+closingBtn.addEventListener('click', closeModal);
 
