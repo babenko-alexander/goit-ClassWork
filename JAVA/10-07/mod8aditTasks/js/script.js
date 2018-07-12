@@ -103,10 +103,20 @@ inp.addEventListener('input', inpVal);*/
 */
 
 
-let btn = document.querySelector('.js-open-modal');
-let modal = document.querySelector('.js-modal-backdrop');
-let closingBtn = document.querySelector('.js-close-modal');
+// let btn = document.querySelector('.js-open-modal');
+// let modal = document.querySelector('.js-modal-backdrop');
+// let closingBtn = document.querySelector('.js-close-modal');
 
+let modal, closingBtn;
+
+class ModalCard {
+        modal = document.querySelector('.js-modal-backdrop');
+        closingBtn = document.querySelector('.js-close-modal');
+
+        togleHiding () {
+            this.classList.togle('modal-hidden');
+        }
+}
 
 function removeHiding () {
     modal.classList.remove('modal-hidden');
@@ -121,4 +131,7 @@ function closeModal (e) {
 btn.addEventListener('click', removeHiding);
 modal.addEventListener('click', closeModal);
 closingBtn.addEventListener('click', closeModal);
+
+
+
 
