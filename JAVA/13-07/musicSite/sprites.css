@@ -1,0 +1,49 @@
+.bg-magnif {
+    transform: translate(50%, 80%);
+    width: 19px;
+    height: 19px;
+    background: url('img/css_sprites.png') -10px -51px;
+}
+.bg-microf {
+    transform: translate(-50%, 80%);
+    width: 14px;
+    height: 19px;
+    background: url('img/css_sprites.png') -49px -51px;
+}
+.bg-browse {
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    background: url('img/css_sprites.png') -10px -10px;
+}
+.bg-radio {
+    width: 20px;
+    height: 20px;
+    background: url('img/css_sprites.png') -50px -10px;
+}
+.bg-friends {
+    width: 20px;
+    height: 16px;
+    background: url('img/css_sprites.png') -90px -10px;
+}
+.bg-playlists {
+    width: 20px;
+    height: 18px;
+    background: url('img/css_sprites.png') -90px -46px;
+}
+
+.bg-mech {
+    width: 12px;
+    height: 12px;
+    background: url('img/css_sprites.png') -10px -90px;
+}
+.bg-up {
+    width: 12px;
+    height: 8px;
+    background: url('img/css_sprites.png') -74px -90px;
+}
+.bg-down {
+    width: 12px;
+    height: 8px;
+    background: url('img/css_sprites.png') -42px -90px;
+}

@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>16-07</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--<template id="address-template">
+    <p>You can find me in {{city}}. My address is {{number}} {{street}}.</p>
+</template>
+
+
+<template id="example-template">
+
+    &lt;!&ndash; people is looked up on the global context, the one we pass to the compiled template &ndash;&gt;
+
+    {{#each people}}
+
+    &lt;!&ndash; Here the context is each individual person. So we can access its properties directly: &ndash;&gt;
+    <p>{{firstName}} {{lastName}}</p>
+
+    {{/each}}
+
+</template>
+
+
+
+<template id="menu">
+    <div class="menu">
+        <h3 class="menu-title">{{title}}</h3>
+        <ul class="menu-list">
+            {{#each items}}
+            <li class="menu-item">{{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
+</template>
+
+
+<div id="menu-container"></div>-->
+
+<!--<div class="content-placeholder"></div>
+
+
+<template id="built-in-helpers-template">
+    {{#each animals}}
+    <p>
+        The {{this.name}} says
+        {{#if this.noise}}
+        "{{this.noise}}".
+        {{else}}
+        nothing since its a {{this.name}}.
+        {{/if}}
+    </p>
+    {{/each}}
+</template>-->
+
+
+<!--<div class="gallery">
+    <div class="gallery-content"></div>
+</div>
+
+
+<template id="example-template">
+    <h2 class="gallery-title">{{title}}</h2>
+    {{#each items}}
+    <div class="gallery-item">
+        <img class="gallery-img" src={{img}} alt="gallery-picture">
+        <p class="gallery-text">{{text}}</p>
+    </div>
+    {{/each}}
+</template>-->
+
+
+<!--<template class="template-card">
+    {{#each phones}}
+    <div class="card-item">
+        <div class="module-card-bottom">
+            <img src="{{image}}" alt="cheesecake" class="module-card-img"/>
+
+            <div>
+                <h2>{{name}}</h2>
+                <p>{{price}}$</p>
+                <p>{{description}}</p>
+            </div>
+
+            <button class="module-card-button">See More</button>
+        </div>
+        <div class="descr description">
+            <p>cpu: {{cpu}}</p>
+            <p>camera: {{camera}}</p>
+            <p>size: {{size}}</p>
+            <p>weight: {{weight}}</p>
+            <p>display: {{display}}</p>
+            <p>battery: {{battery}}</p>
+            <p>memory: {{memory}}</p>
+        </div>
+    </div>
+    {{/each}}
+</template>-->
+
+<h1>Here you can find MacBooks</h1>
+<form action="#" method="post" class="check-form">
+    <p>Choose your display size preferences:</p>
+    <label for="disp13"><input type="checkbox" id="disp13" class="check-box" name="check-box" value="13">13-inch</label>
+    <label for="disp15"><input type="checkbox" id="disp15" class="check-box" name="check-box" value="15">15-inch</label>
+    <label for="disp17"><input type="checkbox" id="disp17" class="check-box" name="check-box" value="17">17-inch</label>
+
+    <!--<input type="checkbox" id="disp13" class="check-box" name="check-box" value="13">-->
+    <!--<input type="checkbox" id="disp15" class="check-box" name="check-box" value="15">-->
+    <!--<input type="checkbox" id="disp17" class="check-box" name="check-box" value="17">-->
+</form>
+
+<template class="template-card">
+
+    {{#each laptops}}
+    <div class="module-card-bottom">
+        <img src={{img}} alt="cheesecake" class="module-card-img"/>
+
+        <div>
+            <h2>{{name}}</h2>
+            <p>{{price}}</p>
+            <p>{{descr}}</p>
+        </div>
+
+        <button class="module-card-button">See More</button>
+    </div>
+    {{/each}}
+
+</template>
+
+
+<div class="content-placeholder"></div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
