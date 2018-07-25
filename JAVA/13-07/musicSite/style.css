@@ -26,6 +26,8 @@ a {
 }
 .user__sidebar {
     display: none;
+    position: relative;
+    z-index: 1;
     /*flex-basis: 25%;*/
 }
 
@@ -183,7 +185,6 @@ a {
     margin-right: 0.5rem;
     border-radius: 0.3rem;
 }
-
 .album__img {
     width: 100%;
     height: auto;
@@ -199,6 +200,40 @@ a {
     color: #6d6d6d;
 }
 
+
+
+.songs__box {
+    background-color: #1a1a1a;
+}
+.songs__filter {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem 2rem;
+    background-color: #1f1f1f;
+    box-shadow: 0 0 8px 1px black;
+    position: relative;
+    z-index: 0;
+}
+.songs__sorting {
+
+}
+.songs__sort-direction {
+
+}
+.songs__randomize {
+    color: #f00;
+}
+.song {
+}
+.song__img {
+
+}
+.song__artist {
+
+}
+.song__name {
+
+}
 
 
 @media (min-width: 768px) {
@@ -260,11 +295,11 @@ a {
     }
 }
 
-
-
-
-
 .display-none {
     display: none;
 }
+
+
+
+
 
