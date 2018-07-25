@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './NewForm.css';
+import styles from './NewForm.css';
 
-/*const input = {
+/* const input = {
   padding: '10px',
   border: '2px solid #FFF',
   width: '165px',
@@ -15,7 +15,7 @@ const btn = {
   backgroundColor: '#0066FF',
   color: '#FFF',
   border: '2px solid #0066FF',
-};*/
+}; */
 
 class NewForm extends Component {
 
@@ -28,7 +28,7 @@ class NewForm extends Component {
         e.preventDefault();
     };
 
-/*    changeLoginInput = (e) => {
+/* changeLoginInput = (e) => {
         // console.log('test');
         const value = e.target.value;
         this.setState({
@@ -59,14 +59,14 @@ class NewForm extends Component {
                 placeholder='Your login'
                 value={this.state.login}
                 onChange={this.changeInput}
-                className='Form__input'/>
+                className={styles.input}/>
                 <input type="password"
                        name='password'
                        placeholder='Password'
                        value={this.state.password}
                        onChange={this.changeInput}
-                       className='Form__input'/>
-                <button type='submit' className='Form__btn'>Send</button>
+                       className={styles.input}/>
+                <button type='submit' className={styles.btn}>Send</button>
             </form>
         )
     }

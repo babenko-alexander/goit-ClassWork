@@ -1,11 +1,11 @@
-.Form__input {
+.input {
   padding: 10px;
   font-size: 16px;
   border: 2px solid #00f;
   width: 165px;
 }
 
-.Form__btn {
+.btn {
   padding: 10px;
   font-size: 16px;
   margin: 10px;
@@ -14,3 +14,10 @@
   color: #FFF;
   border: 2px solid #0066FF;
 }
+
+.btn:hover {
+  background-color: #003399;
+  border: 2px solid #003399;
+  cursor: pointer;
+}
+
